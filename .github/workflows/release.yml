@@ -28,7 +28,7 @@ jobs:
 
     - name: Build Binary with PyInstaller
       run: |
-        pyinstaller --onefile --name sltop --clean sktop.py
+        pyinstaller --onefile --name sltop --clean --collect-all rich --collect-all textual sktop.py
 
     - name: Create Release
       id: create_release
