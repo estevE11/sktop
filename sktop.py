@@ -52,7 +52,7 @@ class JobManager:
                 return []
 
             data = json.loads(stdout.decode())
-            # squeue --json returns a dict with key "jobs" which is a list
+            # squeue --json returns a dict with key "jobs" which is a list.
             jobs = data.get("jobs", [])
             return jobs
         except Exception as e:
