@@ -4,7 +4,7 @@
 set -e
 
 # Change these to match your GitHub repository
-GITHUB_USER="your-username" 
+GITHUB_USER="estevE11"
 GITHUB_REPO="sktop"
 BINARY_NAME="sltop"
 INSTALL_DIR="$HOME/.local/bin"
